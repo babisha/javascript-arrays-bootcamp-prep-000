@@ -24,13 +24,6 @@ function accessElementInArray(array, index) {
   return array[index];
 }
 
-function removeElementFromBeginningOfArray(array) {
-  new_array = [...array];
-  new_array.unshift();
-
-  return new_array;
-}
-
 function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop();
 
